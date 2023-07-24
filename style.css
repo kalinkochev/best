@@ -1,0 +1,250 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+main h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ... Previous CSS styles ... */
+
+/* Style the "Our Mission" section */
+.mission {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style the "Our Team" section */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+/* Style the "Company History" section */
+.history {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style the "Why Choose Us" section */
+.why-choose-us {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.why-choose-us ul {
+    list-style: none;
+}
+
+.why-choose-us li {
+    margin-bottom: 10px;
+}
+
+/* Style the "Call-to-Action" section */
+.cta {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta h3 {
+    color: #333;
+}
+
+.cta p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #fca500;
+}
+
+/* ... More CSS styles ... */
+/* ... Previous CSS styles ... */
+
+/* Add styles for the portfolio items */
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.portfolio-item p {
+    color: #555;
+}
+
+/* Add styles for the contact form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+/* ... More CSS styles ... */
+ /* ... Previous CSS styles ... */
+
+/* Additional styles for the mobile menu */
+/* media screen and (max-width: 768px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+    }
+}
+
+... More CSS styles ... */
+/* Your custom CSS styles for the Portfolio page */
+/* Your custom CSS styles for the Portfolio page */
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+/* Center the project content */
+.project h2, .project p {
+    text-align: center;
+}
+
+.project h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+p {
+text-align: center;
+}
+
+/* Your custom CSS styles for the Index page */
+h1{
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+a{
+    margin-bottom: 10px;
+}
+
+/* Your custom CSS styles for the Contact page */
+h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
